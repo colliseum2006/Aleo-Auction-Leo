@@ -8,8 +8,8 @@ program auction.aleo {
     // - `amount`    : The amount of the bid.
     // - `is_winner` : Whether the bid is the winning bid.
     record Bid {
-        owner: address,
-        bidder: address,
+        owner: address.private,
+        bidder: address.private,
         amount: u64,
         is_winner: bool,
     }
