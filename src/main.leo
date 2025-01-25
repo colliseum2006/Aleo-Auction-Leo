@@ -26,8 +26,8 @@ program auction.aleo {
         // Return a new 'Bid' record for the auction bidder.
         return Bid {
             owner: aleo1fxs9s0w97lmkwlcmgn0z3nuxufdee5yck9wqrs0umevp7qs0sg9q5xxxzh,
-            bidder: bidder,
-            amount: amount,
+            bidder: bidder.public,
+            amount: amount.public,
             is_winner: false,
         };
     }
