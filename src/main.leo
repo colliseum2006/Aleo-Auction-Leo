@@ -35,8 +35,6 @@ program auction.aleo {
     // Returns the winning bid.
     // - `first`  : The first bid.
     // - `second` : The second bid.
-    // Requires that the function caller is the auction runner.
-    // Assumes that the function is invoked only after the bidding period has ended.
     // In the event of a tie, the first bid is selected.
     transition resolve(first: Bid, second: Bid) -> Bid {
         // Ensure the caller is the auctioneer.
