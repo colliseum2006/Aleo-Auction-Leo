@@ -27,16 +27,8 @@ The auction is conducted in a series of stages.
 - **Resolution**:  In the resolution stage, the auctioneer resolves the bids in the order they were received. The auctioneer does so by invoking the `resolve` function. The resolution process produces a single winning bid.
 - **Finishing**: In this stage, the auctioneer finishes the auction by invoking the `finish` function. This function returns the winning bid to the bidder, which the bidder can then use to claim the item.
 
-## Language Features and Concepts
-- `record` declarations
-- `assert_eq`
-- record ownership
 
 ## How to Run
-
-Follow the [Leo Installation Instructions](https://developer.aleo.org/leo/installation).
-
-This auction program can be run using the following bash script. Locally, it will execute Leo program functions to conduct, bid, and close a three party auction.
 
 ```bash
 cd auction
