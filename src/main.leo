@@ -10,7 +10,7 @@ program auction.aleo {
     record Bid {
         owner: address.public,
         bidder: address.public,
-        amount: u64,
+        amount: u32,
         is_winner: bool,
     }
 
