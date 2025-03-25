@@ -7,6 +7,7 @@ program auction.aleo {
     // - `bidder`    : The address of the account that placed the bid.
     // - `amount`    : The amount of the bid.
     // - `is_winner` : Whether the bid is the winning bid.
+    // - u32 data type
     record Bid {
         owner: address.public,
         bidder: address.public,
