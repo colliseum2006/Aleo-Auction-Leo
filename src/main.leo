@@ -15,7 +15,6 @@ program auction.aleo {
         is_winner: bool,
     }
 
-    // Returns a new bid.
 
     // Requires that `bidder` matches the function caller.
     // The owner of the record is set to the entity responsible for running the auction (auction runner).
